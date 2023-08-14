@@ -1,0 +1,37 @@
+
+.delete-modal__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 335px;
+}
+.delete-modal__title {
+  margin-bottom: 11px;
+}
+.delete-modal__text {
+  max-width: 275px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.delete-modal__back {
+  background-color: transparent;
+}
+.modal__btn-contact {
+  flex-direction: row-reverse;
+}
+.modal__btn-contact svg {
+  display: block;
+}
+.modal__btn-back {
+  background-color: transparent;
+}
+.modal__id {
+  margin-left: 9px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  /* 16/12 */
+  color: #b0b0b0;
+}
